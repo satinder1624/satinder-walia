@@ -13,8 +13,10 @@
       "banner": {
         "type": "banner",
         "settings": {
-          "button_text_1": "Hey",
-          "button_text_2": "Hello 2"
+          "button_text_1": "Hey 2",
+          "button_link_1": "https:\/\/www.youtube.com\/",
+          "button_text_2": "Hello",
+          "button_link_2": "https:\/\/www.google.com\/"
         }
       }
     },
