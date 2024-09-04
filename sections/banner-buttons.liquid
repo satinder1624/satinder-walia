@@ -4,10 +4,11 @@
     </head>
     <body>
         <div class="banner-buttons">
-            {% render 'button', button_text: 'Button Text 1', button_link: '#' %}
-            {% render 'button', button_text: 'Button Text 2', button_link: '#' %}
+            {% render 'animated-button', section: {settings: {button_text: section.settings.button_text_1, button_link: section.settings.button_link_1 }} %}
+            {% render 'animated-button', section: {settings: {button_text: section.settings.button_text_2, button_link: section.settings.button_link_2 }} %}
         </div>
     </body>
 </html>
+
 
 
