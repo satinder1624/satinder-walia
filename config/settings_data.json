@@ -1,0 +1,27 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "current": {
+    "sections": {
+      "banner": {
+        "type": "banner",
+        "settings": {
+          "button_text_1": "Hey 2",
+          "button_link_1": "https:\/\/www.youtube.com\/",
+          "button_text_2": "Hello",
+          "button_link_2": "https:\/\/www.google.com\/"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  }
+}
