@@ -1,5 +1,30 @@
-<!-- sections/banner.liquid -->
 <div class="banner-buttons">
-  {% render 'button', button_text: "Hey", button_link: "#" %}
-  {% render 'button', button_text: "Hey 2", button_link: "#" %}
+  {{section.settings.button_text_1}}
+  {{section.settings.button_text_2}}
 </div>
+
+{% schema %}
+{
+  "name": "Banner with Buttons",
+  "settings": [
+    {
+      "type": "text",
+      "id": "button_text_1",
+      "label": "Button Text 1",
+      "default": "Hello"
+    },
+    {
+      "type": "text",
+      "id": "button_text_2",
+      "label": "Button Text 2",
+      "default": "Hello 2"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner with Buttons",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
