@@ -1,6 +1,11 @@
 <h1>Hello Guys</h1>
 {% render 'button', section: {settings: {button_text: "Text 1", button_link: "#" }} %}
 
+<a href="{{ section.settings.button_link }}" class="animated-button">
+  Hey
+</a>
+
+
 {% comment %} {% schema %}
 {
     "name": "Banner",
