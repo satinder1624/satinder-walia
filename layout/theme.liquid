@@ -1,8 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  {{content_for_header}}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page_title }}</title>
+  {{ content_for_header }}
 </head>
 <body>
-  {{ content_for_layout}}
+  <main>
+    {{ content_for_layout }}
+  </main>
 </body>
 </html>

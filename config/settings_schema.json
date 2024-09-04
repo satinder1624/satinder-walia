@@ -1,0 +1,14 @@
+[
+    {
+      "name": "Theme Settings",
+      "settings": [
+        {
+          "type": "text",
+          "id": "site_title",
+          "label": "Site Title",
+          "default": "My Shopify Store"
+        }
+      ]
+    }
+  ]
+  
