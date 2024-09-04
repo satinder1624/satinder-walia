@@ -1,5 +1,2 @@
 <h1>Hello Guys</h1>
-  <div>
-    { % render 'button', section: {settings: {button_text: "Text 1", button_link: '#'}% }
-  </div>
-</div>
+    {% render 'animated-button', section: {settings: {button_text: section.settings.button_text_1, button_link: section.settings.button_link_1 }} %}
