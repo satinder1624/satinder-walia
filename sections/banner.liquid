@@ -1,0 +1,42 @@
+<div class="banner-buttons">
+  {% render 'button', button_text: section.settings.button_text_1, button_link: section.settings.button_link_1 %}
+  {% render 'button', button_text: section.settings.button_text_2, button_link: section.settings.button_link_2 %}
+</div>
+
+{% schema %}
+{
+  "name": "Banner with Buttons",
+  "settings": [
+    {
+      "type": "text",
+      "id": "button_text_1",
+      "label": "Button Text 1",
+      "default": "Hello"
+    },
+    {
+      "type": "text",
+      "id": "button_link_1",
+      "label": "Button Link 1",
+      "default": "https://www.youtube.com/"
+    },
+    {
+      "type": "text",
+      "id": "button_text_2",
+      "label": "Button Text 2",
+      "default": "Hello 5"
+    },
+    {
+      "type": "text",
+      "id": "button_link_2",
+      "label": "Button Link 2",
+      "default": "https://www.youtube.com/"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner with Buttons",
+      "category": "Custom Sections"
+    }
+  ]
+}
+{% endschema %}
