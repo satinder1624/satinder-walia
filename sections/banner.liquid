@@ -1,13 +1,7 @@
 <!-- sections/banner.liquid -->
-{% comment %} <div class="banner-buttons">
-  {% render 'animated-button', section: {settings: {button_text: section.settings.button_text_1, button_link: section.settings.button_link_1 }} %}
-  {% render 'animated-button', section: {settings: {button_text: section.settings.button_text_2, button_link: section.settings.button_link_2 }} %}
-</div> {% endcomment %}
-
-
-<!-- sections/banner.liquid -->
 <div class="banner-buttons">
-  {% render 'animated-button', section: {settings: {button_text: 'Test Button 1', button_link: '#' }} %}
-  {% render 'animated-button', section: {settings: {button_text: 'Test Button 2', button_link: '#' }} %}
+I am here
+  {% render 'button', section: {settings: {button_text: section.settings.button_text_1, button_link: section.settings.button_link_1 }} %}
+  {% comment %} {% render 'button', section: {settings: {button_text: section.settings.button_text_2, button_link: section.settings.button_link_2 }} %} {% endcomment %}
 </div>
 
